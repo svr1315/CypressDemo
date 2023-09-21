@@ -1,2 +1,2 @@
-# CypressDemo
-Cypress Demo
+# CypressAutomationDemo
+Cypress Automation Demo
