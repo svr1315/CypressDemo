@@ -22,8 +22,8 @@ it will add following files/folders by default ->
     cypress\fixtures\example.json-> Added an example fixtures file/folder
 
     =========================================================
-    Added the following in the current framework:
+   Current framework has:
 
    * fixtures->Properties.json file for maintenance of test data
-   * Hooks are added to run before each test
+   * Hooks are added to run before and after each test
 
