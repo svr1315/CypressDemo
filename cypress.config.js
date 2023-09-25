@@ -1,10 +1,11 @@
+/// <reference types="@shelex/cypress-allure-plugin" />
 const { defineConfig } = require("cypress");
-
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 module.exports = defineConfig({
   e2e: {
-    setupNodeEvents(on, config) {
-      
-    },
-    specPattern:'cypress/E2Etests/VerifyLoginFunctionality.cy.js'
-     },
+    setupNodeEvents(on, config){
+      allureWriter(on, config);
+            return config; 
+    } 
+  }    
 });
